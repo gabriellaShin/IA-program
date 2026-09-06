@@ -1,0 +1,71 @@
+/* App component styles */
+.app {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: var(--primary-color);
+}
+
+.navbar-link.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Page layout */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+.page-subtitle {
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}

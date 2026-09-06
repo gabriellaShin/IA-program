@@ -1,0 +1,64 @@
+.meal-editor {
+  margin-bottom: 20px;
+}
+
+.meal-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.meal-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.meal-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.meal-input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: var(--white);
+  transition: all 0.2s ease;
+}
+
+.meal-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(255, 179, 128, 0.35);
+}
+
+.btn-remove {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: var(--danger-color);
+  color: var(--white);
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.btn-remove:hover {
+  opacity: 0.9;
+}
+
+.meal-add {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}

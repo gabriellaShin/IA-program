@@ -1,0 +1,16 @@
+.form-help {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: var(--text-light);
+}
+
+.form-submit-center {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.form-submit-center .btn {
+  width: 10%;
+}

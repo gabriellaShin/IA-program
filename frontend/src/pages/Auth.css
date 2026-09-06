@@ -1,0 +1,127 @@
+.auth-container {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.auth-card {
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border-color);
+  padding: 40px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.auth-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: var(--text-color);
+}
+
+.auth-form {
+  margin-bottom: 20px;
+}
+
+.auth-footer {
+  text-align: center;
+  color: var(--text-light);
+}
+
+.auth-footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Register page specific */
+.register-steps {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.register-steps span {
+  font-size: 14px;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.register-steps span.active {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.form-submit-step1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.form-submit-step1 .btn {
+  width: 25%;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form-actions button {
+  flex: 1;
+}
+
+.password-input-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.password-input-wrapper .form-input {
+  padding-right: 44px;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 4px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-toggle-btn:hover {
+  color: var(--primary-color);
+}
+
+.password-toggle-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.field-error {
+  color: #991B1B;
+  font-size: 13px;
+  margin-top: 6px;
+}

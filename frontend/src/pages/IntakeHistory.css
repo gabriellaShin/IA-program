@@ -1,0 +1,138 @@
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-light);
+  font-size: 16px;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.history-item {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.history-header:hover {
+  background-color: var(--gray-50);
+}
+
+.history-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.history-date {
+  font-size: 14px;
+  color: var(--text-light);
+  margin: 0;
+}
+
+.expand-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+.history-content {
+  padding: 0 20px 20px 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--text-color);
+}
+
+.intake-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.day-intake {
+  padding: 14px;
+  background-color: var(--gray-50);
+  border-radius: 6px;
+  border-left: 3px solid var(--primary-color);
+}
+
+.day-intake strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+.meal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.meal-list div {
+  font-size: 13px;
+  color: var(--text-light);
+}
+
+.meal-time {
+  font-weight: 600;
+  color: var(--text-color);
+  margin-right: 5px;
+}
+
+.eval-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.eval-list li {
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border-left: 3px solid var(--border-color);
+  background-color: var(--gray-50);
+}
+
+.eval-list.positive li {
+  background-color: var(--primary-light);
+  border-left-color: var(--success-color);
+}
+
+.eval-list.negative li {
+  background-color: #FEF2F2;
+  border-left-color: var(--danger-color);
+}
+
+.eval-list.warning li {
+  background-color: #FFF7ED;
+  border-left-color: var(--warning-color);
+}
